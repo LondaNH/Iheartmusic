@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css'; //just added
+// import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink, } from '@apollo/client'; ARE WE USING IT?
+
 
 function App() {
   return (
