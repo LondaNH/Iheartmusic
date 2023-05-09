@@ -8,7 +8,7 @@ function Footer(){
     return (
         <div className='footer'>
             <div className='socialMedia'>
-            <a href="https://github.com/elliehess" target="_blank"><FaGithub /></a>
+            <a href="https://github.com/LondaNH/Iheartmusic" target="_blank"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/ellie-hess-56527061/" target="_blank"><FaLinkedin /></a>
                 <FaTwitter />
                 {/* i do not have a twitter or stacked overflow profile */}
