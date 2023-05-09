@@ -14,6 +14,8 @@ import Header from './components/Header'
 import Navbar from './components/Navbar';
 import LoginForm from './components/LoginForm'
 import SignupForm from './components/SignupForm'
+import Footer from './components/Footer';
+
 
 //start GrapgQl
 const httpLink = createHttpLink({
@@ -61,6 +63,7 @@ function App() {
             element={<h1 className='display-2'>Wrong page!</h1>}
           />
         </Routes>
+        <Footer />
         </>
     </Router>
     </ApolloProvider>
