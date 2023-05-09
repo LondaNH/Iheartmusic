@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
+import Header from './components/Header'
 import Navbar from './components/Navbar';
 import LoginForm from './components/LoginForm'
 import {
@@ -38,6 +39,7 @@ function App() {
     <ApolloProvider client={client}>
     <Router>
       <>
+      <Header />
         <Navbar />
         <Routes>
           <Route 
@@ -53,7 +55,7 @@ function App() {
             element={<h1 className='display-2'>Wrong page!</h1>}
           />
         </Routes>
-      </>
+        </>
     </Router>
     </ApolloProvider>
   );

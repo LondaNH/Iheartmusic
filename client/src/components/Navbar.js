@@ -5,6 +5,7 @@ import { FaUmbrellaBeach } from 'react-icons/fa'
 // import LoginForm from './LoginForm';
 
 import Auth from '../utils/auth';
+import '../styles/Navbar.css'
 
 const AppNavbar = () => {
   function showNavigation() {
