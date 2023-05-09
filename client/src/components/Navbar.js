@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaUmbrellaBeach } from 'react-icons/fa'
+import '../styles/Navbar.css'
 // import SignUpForm from './SignupForm';
 // import LoginForm from './LoginForm';
 
@@ -11,6 +12,7 @@ const AppNavbar = () => {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
+        <div className='navbar'>
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/orderHistory">
@@ -24,6 +26,7 @@ const AppNavbar = () => {
             </a>
           </li>
         </ul>
+        </div>
       );
     } else {
       return (
@@ -44,12 +47,7 @@ const AppNavbar = () => {
   }
 
   return (
-    <header className="flex-row px-1">
-      <h1>
-        <Link to="/">
-          <span role="img" aria-label="Umbrella">< FaUmbrellaBeach style={{ color: 'white', fontSize: '39px' }} /></span> GetAwayWithBae
-        </Link>
-      </h1>
+    <header className="flex-row px-5">
 
       <nav>
         {showNavigation()}
