@@ -1,16 +1,53 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Nav, Container, Modal, Tab } from 'react-bootstrap';
-import SignUpForm from './SignupForm';
-import LoginForm from './LoginForm';
+import { FaUmbrellaBeach } from 'react-icons/fa'
+import '../styles/Navbar.css'
+// import SignUpForm from './SignupForm';
+// import LoginForm from './LoginForm';
 
 import Auth from '../utils/auth';
+import '../styles/Navbar.css'
 
 const AppNavbar = () => {
-  // set modal display state
-  const [showModal, setShowModal] = useState(false);
+  function showNavigation() {
+    if (Auth.loggedIn()) {
+      return (
+        <div className='navbar'>
+        <ul className="flex-row">
+          <li className="mx-1">
+            <Link to="/orderHistory">
+              Profile
+            </Link>
+          </li>
+          <li className="mx-1">
+            {/* this is not using the Link component to logout or user and then refresh the application to the start */}
+            <a href="/" onClick={() => Auth.logout()}>
+              Logout
+            </a>
+          </li>
+        </ul>
+        </div>
+      );
+    } else {
+      return (
+        <ul className="flex-row">
+          <li className="mx-1">
+            <Link to="/signup">
+              Sign up! 
+            </Link>
+          </li>
+          <li className="mx-1">
+            <Link to="/login">
+              Login
+            </Link>
+          </li>
+        </ul>
+      );
+    }
+  }
 
   return (
+<<<<<<< HEAD
     <>
       <Navbar bg='dark' variant='dark' expand='lg'>
         <Container fluid>
@@ -71,7 +108,15 @@ const AppNavbar = () => {
         </Tab.Container>
       </Modal>
     </>
+=======
+    <header className="flex-row px-5">
+
+      <nav>
+        {showNavigation()}
+      </nav>
+    </header>
+>>>>>>> 54fd1b8ad895a3ae7a8740dc7c74bf4741057e82
   );
-};
+}
 
 export default AppNavbar;
