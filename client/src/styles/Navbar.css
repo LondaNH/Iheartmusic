@@ -1,0 +1,9 @@
+span {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    background: #6c8b6a;
+  }
