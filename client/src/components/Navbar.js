@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaUmbrellaBeach } from 'react-icons/fa'
 import '../styles/Navbar.css'
 // import SignUpForm from './SignupForm';
 // import LoginForm from './LoginForm';
