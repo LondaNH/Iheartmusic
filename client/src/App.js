@@ -8,12 +8,12 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
-import SearchBooks from './pages/SearchBooks';
-import SavedBooks from './pages/SavedBooks';
 import Header from './components/Header'
 import Navbar from './components/Navbar';
-import LoginForm from './components/LoginForm'
-import SignupForm from './components/SignupForm'
+import LoginForm from './components/LoginForm';
+import SignupForm from './components/SignupForm';
+import Packages from './pages/Packages';
+import Home from './pages/Home'
 import Footer from './components/Footer';
 
 
@@ -48,19 +48,23 @@ function App() {
         <Routes>
           <Route 
             path='/' 
-            element={<SearchBooks />} 
+            element={<Home />} 
           />
           <Route 
             path='/login' 
             element={<LoginForm />} 
           />
+           <Route
+                path="/products/:id"
+                element={<Packages />}
+              />
           <Route 
             path='/signup' 
             element={<SignupForm />} 
           />
           <Route 
             path='*'
-            element={<h1 className='display-2'>Wrong page!</h1>}
+            element={<h1 className='display-2'>Oops! Wrong way</h1>}
           />
         </Routes>
         <Footer />

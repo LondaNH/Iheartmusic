@@ -1,5 +1,5 @@
 const User = require('./User');
-const Package = require('./Package'); //updated product to package
+const Package = require('./Package'); 
 const Category = require('./Category');
 const Order = require('./Order');
 
