@@ -87,9 +87,9 @@ const SearchBooks = () => {
 
   return (
     <>
-      <div className='text-light bg-dark pt-5'>
+      <div className='text-light-pt-5'>
         <Container>
-          <h1>Search for Books!</h1>
+          <h1>Search Destinations:</h1>
           <Form onSubmit={handleFormSubmit}>
             <Row>
               <Col xs={12} md={8}>
@@ -99,7 +99,7 @@ const SearchBooks = () => {
                   onChange={(e) => setSearchInput(e.target.value)}
                   type='text'
                   size='lg'
-                  placeholder='Search for a book'
+                  placeholder='Search Destinations'
                 />
               </Col>
               <Col xs={12} md={4}>
