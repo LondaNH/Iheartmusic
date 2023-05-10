@@ -8,7 +8,6 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
-import Header from './components/Header'
 import Navbar from './components/Navbar';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
@@ -43,7 +42,6 @@ function App() {
     <ApolloProvider client={client}>
     <Router>
       <>
-      <Header />
         <Navbar />
         <Routes>
           <Route 
