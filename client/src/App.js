@@ -9,11 +9,12 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import Navbar from './components/Navbar';
-import LoginForm from './components/LoginForm';
-import SignupForm from './components/SignupForm';
+import LoginPg from './pages/LoginPg';
+import SignupPg from './pages/SignupPg';
 import Packages from './pages/Packages';
 import Home from './pages/Home'
 import Footer from './components/Footer';
+
 
 
 //start GrapgQl
@@ -41,7 +42,6 @@ function App() {
   return (
     <ApolloProvider client={client}>
     <Router>
-      <>
         <Navbar />
         <Routes>
           <Route 
@@ -50,7 +50,7 @@ function App() {
           />
           <Route 
             path='/login' 
-            element={<LoginForm />} 
+            element={<LoginPg />} 
           />
            <Route
                 path="/products/:id"
@@ -58,7 +58,7 @@ function App() {
               />
           <Route 
             path='/signup' 
-            element={<SignupForm />} 
+            element={<SignupPg />} 
           />
           <Route 
             path='*'
@@ -66,7 +66,6 @@ function App() {
           />
         </Routes>
         <Footer />
-        </>
     </Router>
     </ApolloProvider>
   );

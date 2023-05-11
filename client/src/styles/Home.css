@@ -139,12 +139,11 @@ p {
 @media only screen and (max-width: 600px) {
     /* Adjust font size and spacing for smaller screens */
     h1 {
-        font-size: 2.5em;
+        display:none;
     }
 
     p {
-        font-size: 1.7em;
-        text-align: center;
+       display:none;
     }
 
     .home-btn {
