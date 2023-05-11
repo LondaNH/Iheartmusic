@@ -46,7 +46,7 @@ const AppNavbar = () => {
   }
 
   return (
-    <header className="flex-row px-5">
+    <header className="flex-row-px-5">
 
       <nav>
         {showNavigation()}
