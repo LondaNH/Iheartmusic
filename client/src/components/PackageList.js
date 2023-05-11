@@ -5,7 +5,7 @@ import { UPDATE_PRODUCTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
 import { QUERY_PRODUCTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
-import spinner from '../../assets/spinner.gif';
+// import spinner from '../../assets/spinner.gif';
 
 function PackageList() {
   const [state, dispatch] = useStoreContext();
@@ -62,7 +62,7 @@ function PackageList() {
       ) : (
         <h3>Please add a package to your cart!</h3>
       )}
-      {loading ? <img src={spinner} alt="loading" /> : null}
+      {/* {loading ? <img src={spinner} alt="loading" /> : null} */}
     </div>
   );
 }
