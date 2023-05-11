@@ -20,9 +20,9 @@
 
 ## Installation
 
-npm i 
-npm run seed
-npm run develop
+npm i  
+npm run seed  
+npm run develop  
 
 ## Usage 
 
