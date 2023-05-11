@@ -11,6 +11,7 @@ import { setContext } from '@apollo/client/link/context';
 import Navbar from './components/Navbar';
 import LoginPg from './pages/LoginPg';
 import SignupPg from './pages/SignupPg';
+import PackageDetail from './pages/PackageDetail'
 import Packages from './pages/Packages';
 import Home from './pages/Home'
 import Footer from './components/Footer';
@@ -53,8 +54,12 @@ function App() {
             element={<LoginPg />} 
           />
            <Route
+                path="/products"
+                element={<Packages/>}
+              />
+           <Route
                 path="/products/:id"
-                element={<Packages />}
+                element={<PackageDetail />}
               />
           <Route 
             path='/signup' 
