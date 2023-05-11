@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaUmbrellaBeach } from 'react-icons/fa'
 import '../styles/Navbar.css'
 // import SignUpForm from './SignupForm';
 // import LoginForm from './LoginForm';
@@ -47,6 +46,7 @@ const AppNavbar = () => {
   }
 
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
     <>
       <Navbar bg='dark' variant='dark' expand='lg'>
@@ -110,6 +110,9 @@ const AppNavbar = () => {
     </>
 =======
     <header className="flex-row px-5">
+=======
+    <header className="flex-row-px-5">
+>>>>>>> 0fb5111e3235b3bb3241dcaf681034ea06d12e61
 
       <nav>
         {showNavigation()}

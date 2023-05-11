@@ -12,6 +12,7 @@ import Header from './components/Header'
 import Navbar from './components/Navbar';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
+import PackageDetail from './pages/PackageDetail'
 import Packages from './pages/Packages';
 import Home from './pages/Home'
 import Footer from './components/Footer';
@@ -55,8 +56,12 @@ function App() {
             element={<LoginForm />} 
           />
            <Route
+                path="/products"
+                element={<Packages/>}
+              />
+           <Route
                 path="/products/:id"
-                element={<Packages />}
+                element={<PackageDetail />}
               />
           <Route 
             path='/signup' 

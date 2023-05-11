@@ -1,5 +1,17 @@
+html,
 body {
-  font-family: 'Rubik', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
 }
 
 h1,
