@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-
-import BgVideo from '../media/bgvideo.mp4';
+import BgVideo from '../media/bgvideo.mp4'
+// import VideoPlayer from '../media/VideoPlayer';
 import '../styles/Home.css';
 
 import Auth from '../utils/auth';

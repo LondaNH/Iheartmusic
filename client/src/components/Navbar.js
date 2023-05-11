@@ -18,7 +18,7 @@ const AppNavbar = () => {
     if (Auth.loggedIn()) {
       return (
         <>
-          <Link to="/orderHistory">Packages</Link>
+          <Link to="/orderHistory">Order History</Link>
           <button onClick={Auth.logout}>Logout</button>
         </>
       );

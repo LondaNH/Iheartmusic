@@ -13,6 +13,7 @@ import LoginPg from './pages/LoginPg';
 import SignupPg from './pages/SignupPg';
 import PackageDetail from './pages/PackageDetail'
 import Packages from './pages/Packages';
+import OrderHistory from './pages/OrderHistory'
 import Home from './pages/Home'
 import Footer from './components/Footer';
 
@@ -65,6 +66,10 @@ function App() {
             path='/signup' 
             element={<SignupPg />} 
           />
+          <Route
+                path="/orderHistory"
+                element={<OrderHistory />}
+              />
           <Route 
             path='*'
             element={<h1 className='display-2'>Oops! Wrong way</h1>}
