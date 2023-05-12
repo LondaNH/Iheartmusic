@@ -8,14 +8,15 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
-import Header from './components/Header'
 import Navbar from './components/Navbar';
-import LoginForm from './components/LoginForm';
-import SignupForm from './components/SignupForm';
+import LoginPg from './pages/LoginPg';
+import SignupPg from './pages/SignupPg';
 import PackageDetail from './pages/PackageDetail'
 import Packages from './pages/Packages';
+import OrderHistory from './pages/OrderHistory'
 import Home from './pages/Home'
 import Footer from './components/Footer';
+
 
 
 //start GrapgQl
@@ -43,8 +44,6 @@ function App() {
   return (
     <ApolloProvider client={client}>
     <Router>
-      <>
-      <Header />
         <Navbar />
         <Routes>
           <Route 
@@ -53,7 +52,7 @@ function App() {
           />
           <Route 
             path='/login' 
-            element={<LoginForm />} 
+            element={<LoginPg />} 
           />
            <Route
                 path="/products"
@@ -65,15 +64,18 @@ function App() {
               />
           <Route 
             path='/signup' 
-            element={<SignupForm />} 
+            element={<SignupPg />} 
           />
+          <Route
+                path="/orderHistory"
+                element={<OrderHistory />}
+              />
           <Route 
             path='*'
             element={<h1 className='display-2'>Oops! Wrong way</h1>}
           />
         </Routes>
         <Footer />
-        </>
     </Router>
     </ApolloProvider>
   );
