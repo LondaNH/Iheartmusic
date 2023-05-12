@@ -15,6 +15,7 @@ import PackageDetail from './pages/PackageDetail'
 import Packages from './pages/Packages';
 import OrderHistory from './pages/OrderHistory'
 import Home from './pages/Home'
+import Success from './components/Success';
 import Footer from './components/Footer';
 
 
@@ -70,6 +71,10 @@ function App() {
                 path="/orderHistory"
                 element={<OrderHistory />}
               />
+             <Route
+                path="/success"
+                element={<Success />}
+              /> 
           <Route 
             path='*'
             element={<h1 className='display-2'>Oops! Wrong way</h1>}
