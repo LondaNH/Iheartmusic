@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import PackageItem from '../PackageItem';
-import { useStoreContext } from '../../utils/GlobalState';
-import { UPDATE_PRODUCTS } from '../../utils/actions';
+import { useStoreContext } from '../../src/utils/GlobalState';
+import { UPDATE_PRODUCTS } from '../../src/utils/actions';
 import { useQuery } from '@apollo/client';
-import { QUERY_PRODUCTS } from '../../utils/queries';
-import { idbPromise } from '../../utils/helpers';
-// import spinner from '../../assets/spinner.gif';
+import { QUERY_PRODUCTS } from '../../src/utils/queries';
+import { idbPromise } from '../../src/utils/helpers';
+
 
 function PackageList() {
   const [state, dispatch] = useStoreContext();
@@ -62,7 +62,6 @@ function PackageList() {
       ) : (
         <h3>Please add a package to your cart!</h3>
       )}
-      {/* {loading ? <img src={spinner} alt="loading" /> : null} */}
     </div>
   );
 }
