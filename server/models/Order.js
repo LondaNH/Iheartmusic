@@ -10,7 +10,6 @@ const orderSchema = new Schema({
   products: [
     {
       type: Schema.Types.ObjectId,
-      // Switch "Product" to "Package"
       ref: 'Package'
     }
   ]
