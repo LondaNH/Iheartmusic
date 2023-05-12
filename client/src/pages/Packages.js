@@ -11,7 +11,7 @@ function Packages(){
       <PackageList />
       <Cart />
     </div>
-            )
-}
+    );
+};
 
 export default Packages
