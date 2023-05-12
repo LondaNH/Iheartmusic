@@ -19,6 +19,7 @@ const AppNavbar = () => {
       return (
         <>
           <Link to="/orderHistory">Order History</Link>
+          <Link to="/product">Packages</Link>
           <button onClick={Auth.logout}>Logout</button>
         </>
       );

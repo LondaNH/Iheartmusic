@@ -35,8 +35,6 @@ function Signup(props) {
   return (
    
     <div className="container col-12 md-auto">
-      <Link to="/login">← Head to Login Page</Link>
-
       <h2>Signup</h2>
       <form onSubmit={handleFormSubmit}>
         <div className="flex-row space-between mb-4">
