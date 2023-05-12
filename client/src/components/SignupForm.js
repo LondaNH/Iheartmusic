@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
-import '../styles/SignupForm.css'
+
 
 
 function Signup(props) {
@@ -34,14 +34,13 @@ function Signup(props) {
 
   return (
    
-    <div className="container-col-12-md-auto">
-      {/* <Link to="/login">← Head to Login Page</Link> */}
+    <div className="container col-12 md-auto">
+      <Link to="/login">← Head to Login Page</Link>
 
+      <h2>Signup</h2>
       <form onSubmit={handleFormSubmit}>
-      <div className="wrap-login-1">
-        <div className="flex-row space-between-mb-4">
+        <div className="flex-row space-between mb-4">
         
-        <span className="login-form-title">SignUp</span>
           <label htmlFor="firstName">First Name:</label>
           <input
             placeholder="First"
@@ -51,7 +50,7 @@ function Signup(props) {
             onChange={handleChange}
           />
         </div>
-        <div className="flex-row space-between-mb-4">
+        <div className="flex-row space-between mb-4">
           <label htmlFor="lastName">Last Name:</label>
           <input
             placeholder="Last"
@@ -61,7 +60,7 @@ function Signup(props) {
             onChange={handleChange}
           />
         </div>
-        <div className="flex-row space-between-mb-4">
+        <div className="flex-row space-between mb-4">
           <label htmlFor="email">Email:</label>
           <input
             placeholder="youremail@test.com"
@@ -71,7 +70,7 @@ function Signup(props) {
             onChange={handleChange}
           />
         </div>
-        <div className="flex-row space-between-mb-4">
+        <div className="flex-row space-between mb-4">
           <label htmlFor="pwd">Password:</label>
           <input
             placeholder="******"
@@ -82,12 +81,10 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row flex-end">
-          <button className="submit" type="submit">Submit</button>
-        </div>
+          <button type="submit">Submit</button>
         </div>
         </form>
     </div>
-
   );
 }
 
