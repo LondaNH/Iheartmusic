@@ -1,0 +1,13 @@
+.oops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url('../assets/oops.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
