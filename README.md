@@ -36,21 +36,31 @@ Curious developers can also view our GitHub repository at https://github.com/Lon
 - Joycell Johnson 
 
 ## Usage 
-To use our website, you will first create an account. Our application will save your credentials for future reference. 
+When you come to our webpage, users will be greeted with our homepage:
+![home page](./assets/homepage.png)
 
-![alt text](./client/pictures_of_signup_page.jpg)
+Users will then need to create an account. Our application will save and encrypt your credentials for future reference. 
 
-Once logged in, you will be able to browse vacation packages and select your preferred destination.
+![signup page](./assets/signupPage2.png)
 
-![alt text](./client/pictures_of_signup_page.jpg)
+Please note that users are encouraged to continue using our services. Simply log back into your account.
+
+![login page](./assets/loginPage2.png)
+
+Once logged in, you will have the options to explore packages, view order history or logout.
+
+![loggedin page](./assets/loggedinPage.png)
+
+
+![browse packages](coming)
 
 You can also view your cart.
 
-![alt text](./client/pictures_of_signup_page.jpg)
+![view cart](coming)
 
 And you can finally make a purchase.
 
-![alt text](./client/pictures_of_signup_page.jpg)
+![alt text](coming)
 
 
 ## License
