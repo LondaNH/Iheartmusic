@@ -4,10 +4,10 @@ import { useStoreContext } from '../../src/utils/GlobalState';
 import {
   UPDATE_CATEGORIES,
   UPDATE_CURRENT_CATEGORY,
-} from '../../src/utils/actions'; 
+} from '../../src/utils/actions';
 import { QUERY_CATEGORIES } from '../../src/utils/queries';
 import { idbPromise } from '../../src/utils/helpers';
-
+import '../styles/PackageMenu.css'
 
 function CategoryMenu() {
   const [state, dispatch] = useStoreContext();
@@ -45,13 +45,12 @@ function CategoryMenu() {
   };
 
   return (
-    <div>
-      <h2 style={{ textAlign: 'center' }}> Enjoy some time with your bae </h2>
-      <p> Planning a trip with your bae! </p>
-     
-      <h3> Choose one of our packages from the menu </h3>
+    <div className="pmcontainer">
+      <h2 className="heading">Enjoy some time with your bae</h2>
+      <p>Planning a trip with your bae!</p>
+      <h3>Choose one of our packages from the menu</h3>
       {categories.map((item) => (
-        <button 
+        <button
           key={item._id}
           onClick={() => {
             handleClick(item._id);
@@ -60,13 +59,7 @@ function CategoryMenu() {
           {item.name}
         </button>
       ))}
-    
-      <div>
-       
-      </div>
     </div>
-
-
   );
 }
 

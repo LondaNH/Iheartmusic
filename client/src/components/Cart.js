@@ -12,7 +12,7 @@ import '../../src/styles/cart.css';
 import { BiShocked } from 'react-icons/bi';
 import { BsCartFill } from 'react-icons/bs';
 
-const stripePromise = loadStripe('mysecretcode');
+const stripePromise = loadStripe('pk_test_51N5rsyCg781pCXXGiM1B7NxX4ca8YqVd8zfjx7QJjNd0zRPA9uHKMTg1DXZkTRfmegPMwC67vAwkERGwP2Io3nRA00eZOkxyb2');
 
 const Cart = () => {
   const [state, dispatch] = useStoreContext();
