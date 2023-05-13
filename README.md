@@ -11,12 +11,18 @@ Curious developers can also view our GitHub repository at https://github.com/Lon
 ## Table of Contents 
 
 - [Installation](#installation)
+- [Technologies](#technologies)
 - [Contributors](#contributors)
 - [Usage](#usage)
 - [License](#license)
 - [Questions](#questions)
 
-
+## Technologies
+The following technologies were used to create our application: 
+- MERN Stack (MondoDB, ExpressJS, React, NodeJS)
+- GraphQL
+- Apollo
+- Stripe
 
 ## Installation
 
