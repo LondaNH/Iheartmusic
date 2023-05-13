@@ -1,0 +1,34 @@
+@font-face {
+    font-family:'Merianda' ;
+    src: url("./fonts/Merianda.ttf") format('woff2');
+}
+
+.purchase {
+    width: 70%;
+    height: 60%;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    z-index: 2;
+    font-family: 'Merianda';
+}
+
+a {
+    color: white;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust font size and spacing for smaller screens */
+
+    .purchase {
+        font-size: 1em;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .purchase.hide-text {
+        display: none;
+      }
+}

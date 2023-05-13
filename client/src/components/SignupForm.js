@@ -36,6 +36,7 @@ function Signup(props) {
     <div className="container col-12 md-auto">
       <h2>Signup</h2>
       <form onSubmit={handleFormSubmit}>
+      <div className='signuptxt'>
         <div className="flex-row space-between mb-4">
         
           <label htmlFor="firstName">First Name:</label>
@@ -76,6 +77,7 @@ function Signup(props) {
             id="pwd"
             onChange={handleChange}
           />
+        </div>
         </div>
         <div className="flex-row flex-end">
           <button type="submit">Submit</button>

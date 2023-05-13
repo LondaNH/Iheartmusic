@@ -16,6 +16,10 @@
     background-color: #d8f3dc;
 } 
 
+.signuptxt {
+    color: black
+}
+
 #firstName {
     font-size: 15px;
     color:#1b4332;
