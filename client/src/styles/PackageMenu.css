@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url('../assets/bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  
+  button:focus {
+    outline: none;
+  }
+  

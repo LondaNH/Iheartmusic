@@ -91,7 +91,7 @@ db.once('open', async () => {
     },
   
   ]);
-  console.log('products seeded');
+  console.log('packages seeded!');
 
   await User.deleteMany();
 

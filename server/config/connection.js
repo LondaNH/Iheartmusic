@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
-require("dotenv").config();
+const dotenv = require("dotenv");
+dotenv.config({ path : '../.env'})
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/getawaydb',{
+mongoose.connect(process.env.MONGODB_URI, {
 useNewUrlParser: true,
 useUnifiedTopology: true,
 

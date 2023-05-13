@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family:'Merianda' ;
+    src: url("./fonts/Merianda.ttf") format('woff2');
+}
+
 span {
     display: flex;
     align-items: center;
@@ -40,7 +45,10 @@ span {
     height: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     color: white;
+    font-family: "Merianda";
+    padding-top: 10px;
   }
   
   .navbar a {

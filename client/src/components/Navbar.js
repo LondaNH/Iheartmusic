@@ -17,18 +17,18 @@ const AppNavbar = () => {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <>
+        <div className='hometext'>
           <Link to="/orderHistory">Order History</Link>
           <Link to="/products">Packages</Link>
           <button onClick={Auth.logout}>Logout</button>
-        </>
+        </div>
       );
     } else {
       return (
-        <>
+        <div className='hometext'>
           <Link to="/signup">Sign up!</Link>
           <Link to="/login">Login</Link>
-        </>
+        </div>
       );
     }
   }

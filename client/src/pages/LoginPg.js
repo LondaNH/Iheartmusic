@@ -3,7 +3,7 @@ import LoginForm from '../components/LoginForm';
 
 function LoginPg(){
     return (
-        <div className='loginPg'><h2>Login!</h2>
+        <div className='loginPg'>
             <LoginForm />
         </div>
             )

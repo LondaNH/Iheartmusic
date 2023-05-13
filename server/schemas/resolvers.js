@@ -57,7 +57,7 @@ const resolvers = {
       const order = new Order({ products: args.products });
       const line_items = [];
       const { products } = await order.populate('products');
-      // check !
+      
       for (let i = 0; i < products.length; i++) {
         const product = await stripe.products.create({
           name: products[i].name,
@@ -68,7 +68,7 @@ const resolvers = {
         const price = await stripe.prices.create({
           product: product.id,
           unit_amount: products[i].price * 100,
-          currency: 'AUD',
+          currency: 'USD',
         });
 
         line_items.push({
