@@ -26,7 +26,7 @@
   top: .5rem;
   right: .5rem;
   cursor: pointer;
-  color: var(--tertiary);
+  color: white;
 }
 
 .cart .close:hover {
@@ -59,6 +59,13 @@
   padding: 0;
   margin: 0 .5rem 1rem 0;
 }
+
+.opencheckout {
+  color: white;
+  background: black;
+  padding: 10px;
+}
+
 
 
 @media screen and (max-width: 768px) {
