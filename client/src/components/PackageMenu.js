@@ -45,10 +45,10 @@ function CategoryMenu() {
   };
 
   return (
-    <div className="pmcontainer">
-      <h2 className="heading">Enjoy some time with your bae</h2>
-      <p>Planning a trip with your bae!</p>
-      <h3>Choose one of our packages from the menu</h3>
+    <div className="ctgycontainer">
+      <h2 className="title">Enjoy some time with your bae</h2>
+      <h3 className='titlesmall'>Planning a trip with your special one?</h3>
+      <h3 className='titlemedium'>Choose one of our packages from the menu</h3>
       {categories.map((item) => (
         <button
           key={item._id}

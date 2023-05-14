@@ -60,6 +60,11 @@
   margin: 0 .5rem 1rem 0;
 }
 
+.opencheckout {
+  color: white;
+  background: black;
+  padding: 10px;
+}
 
 @media screen and (max-width: 768px) {
   .cart {

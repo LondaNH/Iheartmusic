@@ -4,8 +4,10 @@
 
 ## Description
 🌴 Escape to Paradise with Our Ultimate Get Away With Bae Application! 🌴
+
 You've worked so hard for the past 6 months and you deserve a break, a getaway! Well, look no further, we present to you [Get Away With Bae](https://fierce-tundra-81897.herokuapp.com). This website is designed to take the work out of planning your tropical vacation. Take a look at our packages and let us take you away. Customers can start with creating an account where they can save their vacation selections and safely make purchases. To view our website, please click [Get Away With Bae](https://fierce-tundra-81897.herokuapp.com).
 <br>Curious developers can also view our GitHub repository at https://github.com/LondaNH/Iheartmusic
+
 
 
 ## Table of Contents 
