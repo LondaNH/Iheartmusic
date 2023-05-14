@@ -85,7 +85,7 @@ function Packages() {
         <div className="container my-1">
           <Link to="/">← Back to Package</Link>
 
-          <h2>{currentProduct.name}</h2>
+          <div className='titlemedium'>{currentProduct.name}</div>
 
           <p>{currentProduct.description}</p>
 
