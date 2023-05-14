@@ -1,0 +1,22 @@
+.flex-row.space-between.my-4 {
+    color: white;
+    background-color: black;
+    padding: 5px;
+} 
+
+.flex-row.space-between.mb-4 {
+    color: white;
+    background-color: black;
+    padding: 5px;
+} 
+
+@font-face {
+    font-family:'Merianda' ;
+    src: url("./fonts/Merianda.ttf") format('woff2');
+}
+
+.title {
+    font-family: 'Merianda';
+    font-size: 48px;
+}
+

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
+import '../styles/LoginPg.css'
 
 
 
@@ -34,7 +35,7 @@ function Signup(props) {
   return (
    
     <div className="container col-12 md-auto">
-      <h2>Signup</h2>
+      <div className='title'>Signup</div>
       <form onSubmit={handleFormSubmit}>
       <div className='signuptxt'>
         <div className="flex-row space-between mb-4">
