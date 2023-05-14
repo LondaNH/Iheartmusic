@@ -8,7 +8,7 @@ import Auth from '../../src/utils/auth';
 import { useStoreContext } from '../../src/utils/GlobalState';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../src/utils/actions';
 
-import '../../src/styles/Cart.css';
+import '../../src/styles/cart.css';
 import { BiShocked } from 'react-icons/bi';
 import { BsCartFill } from 'react-icons/bs';
 
