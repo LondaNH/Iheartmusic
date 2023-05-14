@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { LOGIN } from '../utils/mutations';
 import Auth from '../utils/auth';
+import '../styles/LoginPg.css'
 
 
 
@@ -32,7 +33,7 @@ function Login(props) {
 
   return (
     <div className="container my-1">
-      <h2>Login</h2>
+      <div className='title'>Login</div>
       <form onSubmit={handleFormSubmit}>
         <div className="flex-row space-between my-4">
           <label htmlFor="email">Email address:</label>
@@ -45,7 +46,7 @@ function Login(props) {
           />
         </div>
         <div className="flex-row space-between my-4">
-          <label htmlFor="pwd">Password:</label>
+          <label htmlFor="pwd">Password:     </label>
           <input
             placeholder="******"
             name="password"
