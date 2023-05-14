@@ -58,15 +58,15 @@ Once logged in, you will have the options to explore packages, view order histor
 ![loggedin page](./assets/loggedinPage.png)
 
 
-![browse packages](coming)
+![browse packages](./assets/packages.png)
 
 You can also view your cart.
 
-![view cart](coming)
+![view cart](./assets/shoppingCart.png)
 
 And you can finally make a purchase.
 
-![alt text](coming)
+![payment page](./assets/stripePmt.png)
 
 
 ## License
