@@ -4,9 +4,9 @@
 
 ## Description
 🌴 Escape to Paradise with Our Ultimate Get Away With Bae Application! 🌴
-
-You've worked so hard for the past 6 months and you deserve a break, a getaway! Well, look no further, we present to you [Get Away With Bae](https://fierce-tundra-81897.herokuapp.com). This website is designed to take the work out of planning your tropical vacation. Take a look at our packages and let us take you away. Customers can start with creating an account where they can save their vacation selections and safely make purchases. To view our website, please click [Get Away With Bae](https://fierce-tundra-81897.herokuapp.com).
-<br>Curious developers can also view our GitHub repository at https://github.com/LondaNH/Iheartmusic
+You've worked so hard for the past 6 months and you deserve a break, a getaway! Well, look no further, we present to you "Get Away With Bae". This website is designed to take the work out of planning your tropical vacation. Take a look at our packages and let us take you away. Customers can start with creating an account where they can save their vacation selections and safely make purchases.  
+[Click here for the Deployed Portfolio](https://fierce-tundra-81897.herokuapp.com)  
+Curious developers can also view our GitHub repository at https://github.com/LondaNH/Iheartmusic
 
 
 
@@ -73,8 +73,12 @@ And you can finally make a purchase.
 
 ## License
 
-This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
-
+This project is covered under the MIT license. To learn more about what this means, click the license button at the top.  
+Sources includes:  
+Background video: https://github.com/moses-netshitangani/video-background  
+Global State Tutorial - Weibenfalk Youtube  
+UseState Tutorial - Weibenfalk Youtube
+Module 21 Activites 
 
 ## Questions 
 

@@ -38,7 +38,7 @@ const CartItem = ({ item }) => {
   }
 
   return (
-    <div className="opencheckout">
+    <div className="open">
       <div>
         <img
           src={`/images/${item.image}`}

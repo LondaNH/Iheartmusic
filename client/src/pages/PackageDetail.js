@@ -83,7 +83,7 @@ function Packages() {
     <>
       {currentProduct && cart ? (
         <div className="container my-1">
-          <Link to="/">← Back to Package</Link>
+          <Link to="/products">← Back to Package</Link>
 
           <div className='titlemedium'>{currentProduct.name}</div>
 
