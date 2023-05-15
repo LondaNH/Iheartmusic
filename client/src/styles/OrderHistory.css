@@ -13,6 +13,7 @@
     /* justify-content: space-around; */
     z-index: 2;
     font-family: 'Merianda';
+    padding-top: 30px;
 }
 
 a {
@@ -25,7 +26,7 @@ a {
 
     .purchase {
         font-size: 1em;
-        padding-top: 20px;
+        padding-top: 30px;
         text-align: center;
     }
     .purchase.hide-text {

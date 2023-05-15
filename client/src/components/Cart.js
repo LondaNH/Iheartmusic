@@ -77,9 +77,9 @@ const Cart = () => {
       <div className="close" onClick={toggleCart}>
         [close]
       </div>
-      <h2>CHECKOUT CART</h2>
+      <div className='opencheckout'>CHECKOUT CART</div>
       {state.cart.length ? (
-        <div>
+        <div className='opencheckout'>
           {state.cart.map((item) => (
             <CartItem key={item._id} item={item} />
           ))}
@@ -95,10 +95,10 @@ const Cart = () => {
           </div>
         </div>
       ) : (
-        <h3>
+        <div className='opencheckout'>
           <span role="img" aria-label="shocked">< BiShocked style={{colour: 'navy', fontSize: '50px'}}/></span>
             Please add the package that you would like!
-        </h3>
+        </div>
       )}
     </div>
   );
